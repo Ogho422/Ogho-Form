@@ -1,0 +1,78 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ogho Form</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Forms Dashboard</h1>
+        <div class="Form-wrapper">
+
+            <!--Appointment Form-->
+
+            <div class="form-box">
+
+                <h3>--Appointment Form</h3>
+                <form>
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="tel" placeholder="Phone Number" required>
+                    <input type="email" placeholder="Email Address" required>
+                    <input type="date" required>
+                    <input type="time" required>
+
+                    <div class="address-details">
+                        <input type="text" placeholder="City" required>
+                        <input type="text" placeholder="State" required>
+                        <input type="text" placeholder="Post Code" required>
+
+                    </div>
+
+                    <button type="submit">Book Appointment</button>
+
+                </form>
+
+            </div>
+            <!--Chatbox Form-->
+
+            <div class="form-box">
+                <h3>Chatbox Form</h3>
+
+                <form>
+
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Email Address" required>
+                    <textarea placeholder="Message"></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+
+            </div>
+
+            <!--File Upload Form-->
+
+            <div class="form-box">
+                <h3>File Upload Form</h3>
+                <form>
+                    <input type="email" placeholder="send files to this email" required>
+                    <div class="file-upload">
+                        <label for="file">Drop files here</label>
+                        <input type="file" id="file" multiple>
+
+                    </div>
+                    <button type="submit">Send File</button>
+                </form>
+
+            </div>
+
+
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
